@@ -1,0 +1,24 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "CLI tool for SESD Workshop 2",
+  "main": "dist/cli.js",
+  "bin": {
+    "mycli": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "keywords": ["cli", "typescript"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
